@@ -35,7 +35,30 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.circle2 img{
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 0.15rem;
+}
+.circle img{
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: 0.15rem;
+}
+.circle2:hover{
+  scale: 1.1;
+  transition: 0.5s;
+}
+.circle:hover{
+  scale: 1.1;
+  transition: 0.5s;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
